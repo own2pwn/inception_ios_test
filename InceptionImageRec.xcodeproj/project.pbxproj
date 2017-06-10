@@ -14,6 +14,7 @@
 		4B59574A1EEB9EA00069ACC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5957481EEB9EA00069ACC8 /* LaunchScreen.storyboard */; };
 		4B5957551EEB9EA10069ACC8 /* InceptionImageRecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5957541EEB9EA10069ACC8 /* InceptionImageRecTests.swift */; };
 		4B5957601EEB9EA10069ACC8 /* InceptionImageRecUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59575F1EEB9EA10069ACC8 /* InceptionImageRecUITests.swift */; };
+		4B59576E1EEB9EB90069ACC8 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4B59576D1EEB9EB90069ACC8 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4B59575B1EEB9EA10069ACC8 /* InceptionImageRecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InceptionImageRecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B59575F1EEB9EA10069ACC8 /* InceptionImageRecUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InceptionImageRecUITests.swift; sourceTree = "<group>"; };
 		4B5957611EEB9EA10069ACC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B59576D1EEB9EB90069ACC8 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,9 @@
 		4B59573E1EEB9EA00069ACC8 /* InceptionImageRec */ = {
 			isa = PBXGroup;
 			children = (
+				4B5957701EEB9EC60069ACC8 /* Home Screen */,
+				4B59576F1EEB9EBC0069ACC8 /* Model */,
 				4B59573F1EEB9EA00069ACC8 /* AppDelegate.swift */,
-				4B5957411EEB9EA00069ACC8 /* ViewController.swift */,
-				4B5957431EEB9EA00069ACC8 /* Main.storyboard */,
 				4B5957461EEB9EA00069ACC8 /* Assets.xcassets */,
 				4B5957481EEB9EA00069ACC8 /* LaunchScreen.storyboard */,
 				4B59574B1EEB9EA00069ACC8 /* Info.plist */,
@@ -123,6 +125,23 @@
 				4B5957611EEB9EA10069ACC8 /* Info.plist */,
 			);
 			path = InceptionImageRecUITests;
+			sourceTree = "<group>";
+		};
+		4B59576F1EEB9EBC0069ACC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B59576D1EEB9EB90069ACC8 /* Inceptionv3.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B5957701EEB9EC60069ACC8 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				4B5957431EEB9EA00069ACC8 /* Main.storyboard */,
+				4B5957411EEB9EA00069ACC8 /* ViewController.swift */,
+			);
+			path = "Home Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B5957421EEB9EA00069ACC8 /* ViewController.swift in Sources */,
+				4B59576E1EEB9EB90069ACC8 /* Inceptionv3.mlmodel in Sources */,
 				4B5957401EEB9EA00069ACC8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
